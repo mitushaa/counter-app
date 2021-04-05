@@ -1,3 +1,5 @@
 
 var myButton = document.getElementById("btn")
-console.log(myButton)
+myButton.addEventListener("click", function(){
+    console.log("button was clicked!")
+})
