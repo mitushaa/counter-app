@@ -1,4 +1,3 @@
 
-var myHeader = document.getElementById("myHeader")
-console.log(myHeader)
-myHeader.style.background = 'red'
+var myButton = document.getElementById("btn")
+console.log(myButton)
