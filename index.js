@@ -5,6 +5,8 @@ var counter = 0
 
 
 myButton.addEventListener("click", function(){
-    myTitle.textContent = "I'm learning Javascript"
+
+    counter = counter + 2
+
     myButton.textContent = counter
 })
