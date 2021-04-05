@@ -1,1 +1,4 @@
-console.log("Hello from JavaScript")
+
+var myHeader = document.getElementById("myHeader")
+console.log(myHeader)
+myHeader.style.background = 'red'
